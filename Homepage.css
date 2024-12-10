@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 865px;
+}
+
+.body {
+    color: #dee4ffce;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.left_nav{
+    background-color: #223771;
+    width: 250px;
+}
+.content{
+    flex: 3;
+    -ms-flex: 3;
+}
+
+.logo_only {
+    transform: translateX(80%);   
+}
